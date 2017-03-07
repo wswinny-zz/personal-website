@@ -1,0 +1,8 @@
+I am a college student attending Texas A&M University at Corpus Christi who 
+loves solving problems, breaking things, fixing things, learning things, and 
+exploring all aspects of computer science. Currently I work for the university 
+at The Innovation in Computing Research Labs(iCORE) and at The Lone Star 
+Unmanned Aerial Systems Center of Excellence (LSUASC). Outside of school I like 
+to develop projects on my own time and research new and innovative technologies. 
+I have 4+ years of experience and do most of my work in Java and C/C++. I also 
+know and am familiar with Python, C#, F#, Java Script, HTML, PHP, and MySQL.

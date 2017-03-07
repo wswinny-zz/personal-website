@@ -1,0 +1,96 @@
+html, body
+{
+	background: #404040;
+	
+	width: 100%;
+	height: 100%;
+
+	margin: 0;
+	padding: 0;
+	border: none;
+
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	color: white;
+}
+
+#page-title
+{
+	width: 100%;
+	height: auto;
+
+	padding: 15px;
+
+	font-weight: bold;
+	font-size: 100px;
+
+	text-align: center;
+}
+
+/***********************************
+ * Page Section
+ ***********************************/
+
+.section
+{
+	width: 100%;
+	height: auto;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	padding-left: 100px;
+	padding-right: 20px;
+}
+
+.section-title
+{
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.section-content
+{
+	width: 100%;
+	height: auto;
+
+	padding-left: 25px;
+}
+
+ /***********************************
+ * Code Style
+ ***********************************/
+
+.code-block
+{
+	width: 100%;
+
+	padding: 5px;
+
+	border: 2px solid white;
+}
+
+.code-line
+{
+
+}
+
+.code-line-num
+{
+	background: #666;
+
+	width: 35px;
+	height: auto;
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+	font-size: 14px;
+
+	text-align: right;
+}
+
+.code-line-content
+{
+	padding-left: 10px;
+	font-size: 14px;
+}
