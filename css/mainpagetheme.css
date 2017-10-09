@@ -1,0 +1,374 @@
+:root
+{
+    --main-bg:          #E9E9ED;
+
+    --header-bg:		#3F51B5;
+    --body-bg:          #3849A2;
+    --contact-bg:       #32408F;
+    --footer-bg:        #2B387C;
+
+    --standard-button-color: #32408F;
+    --page-content-text-color: #3F51B5;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    width: 100%;
+    height: 100%;
+
+    background: var(--main-bg);
+
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.standardButton
+{
+    display: inline-block;
+    text-align: center;
+
+    padding: 8px 15px;
+
+    line-height: 1.25;
+    
+    flex-shrink: 0;
+    flex-grow: 0;
+
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.3);
+
+    background: var(--standard-button-color);
+    color: white;
+
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+    text-decoration: none;
+    text-align: center;
+}
+
+.buttonIcon
+{
+    width: 15px;
+    height: 15px;
+
+    float: left;
+
+    margin-right: 5px;
+
+    color: white;
+}
+
+.contentCard
+{
+    width: 80%;
+    min-width: 700px;
+    max-width: 1000px;
+
+    padding: 40px;
+    margin: 30px auto;
+
+    background: var(--content-card);
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    box-shadow: 5px 5px 5px #aaaaaa;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTitle
+{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.cardSubtitle
+{
+    font-size: 17px;
+}
+
+.cardBody
+{
+    margin-top: 15px;
+
+    color: #666666;
+    font-size: 16px;
+
+    line-height: 1.5;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*********************************
+ * WEBSITE INTRO
+ *********************************/
+
+#intro
+{
+    height: 600px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    box-shadow: 0px 5px 5px #aaaaaa;
+
+    color: white;
+}
+
+/*********************************
+ * WEBSITE INTRO HEADER
+ *********************************/
+
+#introHeader
+{
+    height: 50px;
+
+    background: var(--header-bg);
+    flex-shrink: 0;
+
+    padding: 15px 15px 0px 15px;
+}
+
+#introResumeButton, #introEmailButton
+{
+    float: right;
+    margin: 0px 2px 0px 2px;
+}
+
+/*********************************
+ * WEBSITE INTRO BODY
+ *********************************/
+
+#introBodyContent
+{
+    background: var(--body-bg);
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+#introTitle
+{
+    margin-bottom: 0;
+
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#introSubTitle
+{
+    text-align: center;
+
+    font-weight: 300;
+    font-size: 28px;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#introProfile
+{
+    width: 750px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    font-weight: 100;
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+/*********************************
+ * WEBSITE INTRO CONTACT
+ *********************************/
+
+#introContactInfo
+{
+    height: 75px;
+
+    background: var(--contact-bg);
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.contactButton
+{
+    margin: 0px 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactText
+{
+    display: inline-block;
+
+    margin: 0;
+    margin-left: 3px;
+}
+
+.contactLink
+{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.contactLink:hover
+{
+    text-decoration: underline;
+}
+
+/*********************************
+ * WEBSITE INTRO NAVBAR
+ *********************************/
+
+#introNavbar
+{
+    height: 60px;
+
+    background: var(--footer-bg);
+    flex-shrink: 0;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.stickyNavbar
+{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.navbarItem
+{
+    margin: 0px 20px;
+
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+
+    cursor: pointer;
+
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+.navbarItem:hover
+{
+    color: white;
+}
+
+/*********************************
+ * CONTENT SECTION EXPERIENCE
+ *********************************/
+.experienceRow
+{
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.experienceLeft
+{
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.experienceJobTitle
+{
+    margin: 0;
+
+    font-size: 20px;
+    color: var(--page-content-text-color);
+}
+
+.experienceLocation, .experienceTimeframe
+{
+    margin: 0;
+
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.experienceRight
+{
+    padding-left: 10px;
+
+    border-left: 3px solid var(--page-content-text-color);
+}
+
+.experienceCompany
+{
+    margin: 0;
+
+    font-size: 20px;
+}
+
+.experienceDescription
+{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/*********************************
+ * CONTENT SECTION EDUCATION
+ *********************************/
+#educationBody
+{
+    flex-direction: row;
+}
+
+.educationItem > p
+{
+    margin: 0;
+}
+
+.educationDegreeTitle
+{
+    font-size: 20px;
+    color: var(--page-content-text-color);
+}
+
+.educationSchool
+{
+    font-size: 16px;
+}
+
+.educationGPA, .educationYears
+{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
